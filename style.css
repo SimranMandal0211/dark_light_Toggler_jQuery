@@ -1,0 +1,32 @@
+*{
+    transition-duration: .5s;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+.toggleBtn{
+    border: 2px solid black;
+    width: 8rem;
+    height: 2.2rem;
+    border-radius: 2rem;
+}
+
+.slider{
+    height: 2rem;
+    width: 3rem;
+    border-radius: 43%;
+    border: 2px solid white;
+    background-color: black;
+    margin-left: 1px;
+}
+
+h1{
+    margin-top: 4rem;
+}
